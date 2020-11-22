@@ -1,4 +1,4 @@
-#**GameCenter Project**
+#GameCenter Project
 
 ## Update 1.0.0
 
