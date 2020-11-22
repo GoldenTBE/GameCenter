@@ -1,14 +1,22 @@
-GameCenter Project
--
-- Hopeful to finish during Thanksgiving Break.
+#**GameCenter Project**
 
-Games Included
--
+## Update 1.0.0
+
+- Added login creator. Info will be stored in csv. 
+
+
+##**Roadmap**
+
+**Priority**
+
+- Implement Logging in
+- Error Handling
+
+**Games thats will be implemented**
 - Blackjack 
 - Rock Paper Scissors 
 - Battleship
 
-Features on the side 
--
+**Features on the side** 
 - Introduce User/Password Login through txt or csv file 
 - Betting System
