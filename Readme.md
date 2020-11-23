@@ -1,9 +1,12 @@
 # ****GameCenter Project****
 
-## Update 1.0.0
+## Update 1.0.1
 
 - Added login creator. Info will be stored in csv. 
 
+## Update 1.0.1.1
+
+- Fixed logic error when creating a user.
 
 ##**Roadmap**
 
