@@ -7,7 +7,8 @@ def start():
    string = input((f'\nWhat would you like to do?\nL - Login to user\nC - Create a user\nQ - Quit out of app\n'))
    while string != 'Q':
        if string == 'L':
-           info.login_user()
+           player_info = info.login_user()
+           return player_info
            break
        elif string == 'C':
            info.create_user()
@@ -30,9 +31,8 @@ def main():
           f'|Login to play! Playing games will change your score if you win or |\n'
           f'|lose. Place bets to increase your coin amount. More games to come!|\n'
           f'|------------------------------------------------------------------|')
-    start()
-
-
+    users_info = start()
+    print(users_info.username)
 
 
 
