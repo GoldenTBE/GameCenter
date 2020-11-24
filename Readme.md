@@ -8,11 +8,16 @@
 
 - Fixed logic error when creating a user.
 
-##**Roadmap**
+## Update 1.0.2
+
+- Added Loggin support
+
+
+## **Roadmap**
 
 **Priority**
 
-- Implement Logging in
+- Implement betting/score updating to csv file. 
 - Error Handling
 
 **Games thats will be implemented**
@@ -21,5 +26,6 @@
 - Battleship
 
 **Features on the side** 
-- Introduce User/Password Login through txt or csv file 
+- Introduce User/Password Login through txt or csv file  
 - Betting System
+- 
