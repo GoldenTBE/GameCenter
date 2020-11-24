@@ -8,14 +8,10 @@
 
 - Fixed logic error when creating a user.
 
-<<<<<<< HEAD
-=======
 ## Update 1.0.2
 
 - Added Loggin support
 
-
->>>>>>> e062cd0... 1.0.2
 ## **Roadmap**
 
 **Priority**
@@ -31,4 +27,3 @@
 **Features on the side** 
 - Introduce User/Password Login through txt or csv file  
 - Betting System
-- 
