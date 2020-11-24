@@ -10,6 +10,11 @@ class user_functions:
         self.username = username
         self.coins = coins
         self.score = score
+    #def play(self):
+
+    #def leaderboard(self):
+
+
     def bet(self): #betting
         with open ('info.csv', 'r') as x:
             read = csv.reader (x)

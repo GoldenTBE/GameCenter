@@ -10,12 +10,16 @@
 
 ## Update 1.0.2
 
-- Added Loggin support
+- Added Login support
 
+## Update 1.0.3
+
+- Added options after logging in.
+ 
 
 ## **Priority**
 
 - Getting Games Added. 
 - Betting/Score Implemented. 
 - Error Handling
-- Logout Feature
+
