@@ -18,6 +18,7 @@
 
 - Implement betting/score updating to csv file. 
 - Error Handling
+- Logout Feature
 
 **Games thats will be implemented**
 - Blackjack 
