@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22eff63d-c75f-411c-8ee7-0a371574b857" name="Default Changelist" comment="" />
+    <list default="true" id="22eff63d-c75f-411c-8ee7-0a371574b857" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -211,10 +213,10 @@
     </state>
     <state width="1151" height="268" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1606018971351" />
     <state width="1667" height="318" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606168346282" />
-    <state x="-1202" y="255" width="1104" height="701" key="dock-window-1" timestamp="1606170371125">
+    <state x="-1203" y="214" width="1104" height="701" key="dock-window-1" timestamp="1606187737924">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1202" y="255" width="1104" height="701" key="dock-window-1/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606170371125" />
+    <state x="-1203" y="214" width="1104" height="701" key="dock-window-1/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606187737924" />
     <state x="614" y="248" width="672" height="678" key="search.everywhere.popup" timestamp="1605763084734">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
