@@ -12,12 +12,9 @@
 
 - Added Login support
 
-## **Roadmap**
-
-**Priority**
+## **Priority**
 
 - Getting Games Added. 
 - Betting/Score Implemented. 
 - Error Handling
 - Logout Feature
-
