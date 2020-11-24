@@ -21,6 +21,12 @@
   <component name="ChangeListManager">
     <list default="true" id="22eff63d-c75f-411c-8ee7-0a371574b857" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/info.csv" beforeDir="false" afterPath="$PROJECT_DIR$/info.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/info.py" beforeDir="false" afterPath="$PROJECT_DIR$/info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+>>>>>>> e062cd02684e962ac82643ff55d7d3557dd77106
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,6 +179,7 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="723" y="322" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606097835430" />
+<<<<<<< HEAD
     <state width="1550" height="221" key="GridCell.Tab.0.bottom" timestamp="1606187483055">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -193,6 +200,28 @@
     </state>
     <state width="1151" height="278" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1606023637102" />
     <state width="1550" height="221" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606187483055" />
+=======
+    <state width="1550" height="221" key="GridCell.Tab.0.bottom" timestamp="1606170324160">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1151" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1606023637102" />
+    <state width="1550" height="221" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606170324160" />
+    <state width="1550" height="221" key="GridCell.Tab.0.center" timestamp="1606170324160">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1151" height="278" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1606023637102" />
+    <state width="1550" height="221" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606170324160" />
+    <state width="1550" height="221" key="GridCell.Tab.0.left" timestamp="1606170324160">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1151" height="278" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1606023637102" />
+    <state width="1550" height="221" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606170324160" />
+    <state width="1550" height="221" key="GridCell.Tab.0.right" timestamp="1606170324160">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1151" height="278" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1606023637102" />
+    <state width="1550" height="221" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606170324160" />
+>>>>>>> e062cd02684e962ac82643ff55d7d3557dd77106
     <state width="1667" height="318" key="GridCell.Tab.1.bottom" timestamp="1606168346282">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -213,10 +242,17 @@
     </state>
     <state width="1151" height="268" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1606018971351" />
     <state width="1667" height="318" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606168346282" />
+<<<<<<< HEAD
     <state x="-1203" y="214" width="1104" height="701" key="dock-window-1" timestamp="1606187737924">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1203" y="214" width="1104" height="701" key="dock-window-1/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606187737924" />
+=======
+    <state x="-1202" y="255" width="1104" height="701" key="dock-window-1" timestamp="1606170371125">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1202" y="255" width="1104" height="701" key="dock-window-1/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1606170371125" />
+>>>>>>> e062cd02684e962ac82643ff55d7d3557dd77106
     <state x="614" y="248" width="672" height="678" key="search.everywhere.popup" timestamp="1605763084734">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
