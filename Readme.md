@@ -10,7 +10,7 @@
 
 ## Update 1.0.2
 
-- Added Loggin support
+- Added Login support
 
 ## **Roadmap**
 
