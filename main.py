@@ -26,7 +26,7 @@ def options(user_info):
     if string == 'P':
         user_info.play()
     elif string == 'PL':
-        info.create_user()
+        info.leaderboard()
     elif string == 'L':
         print(f'Bye {user_info.username}! See you again soon.')
         start()

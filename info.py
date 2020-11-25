@@ -1,6 +1,9 @@
 import csv
 import testing_input
-from main import start
+from main import start, options
+import rps
+import BlackJack
+
 
 #info will be stored in a user:pass:coins:score format
 #csv should allow for scalibilty/ more users
@@ -10,10 +13,27 @@ class user_functions:
         self.username = username
         self.coins = coins
         self.score = score
-    #def play(self):
+    def leaderboard(self):
+        print(f'In Works')
+        options()
 
-    #def leaderboard(self):
-
+    def play(self):
+        string = input(f'|Games Offered|\n'
+                       f'|RPS - Rock Paper Scissors|\n'
+                       f'|BJ - BlackJack|\n'
+                       f'|B - Battleship|\n'
+                       f'|* - Back|\n')
+        if string == 'RPS':
+            rps.main()
+        elif string == 'BJ':
+            pass
+        elif string == 'B':
+            pass
+        elif string == 'B':
+            options(user_functions)
+        else:
+            print(f'You did not select one of the options. Try Again.\n')
+            user_functions.play()
 
     def bet(self): #betting
         with open ('info.csv', 'r') as x:
