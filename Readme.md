@@ -23,6 +23,12 @@
     - Betting/Score Logic in the works. 
     - Leaderboard coming - pulls csv file and ranks the players. 
     
+## Update 1.0.3.2
+
+- Bug Fixes 
+- Notes: Bugs Found
+    - Logout - After logging out, login would be prompted twice. 
+    - Moved Play function to main, easier to work with. 
 
 ## **Priority**
 

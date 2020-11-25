@@ -1,6 +1,6 @@
 import csv
 import testing_input
-from main import start, options
+from main import start, options, play
 import rps
 import BlackJack
 
@@ -13,27 +13,26 @@ class user_functions:
         self.username = username
         self.coins = coins
         self.score = score
-    def leaderboard(self):
+    def leaderboard(self,user):
         print(f'In Works')
-        options()
-
-    def play(self):
-        string = input(f'|Games Offered|\n'
-                       f'|RPS - Rock Paper Scissors|\n'
-                       f'|BJ - BlackJack|\n'
-                       f'|B - Battleship|\n'
-                       f'|* - Back|\n')
-        if string == 'RPS':
+        options(user)
+    def rps(self):
+        string = input(f'|Welcome to Rock, Paper, Scissors!|\n'
+              f'|B - Bet Coins|\n'
+              f'|P - Practice Mode|\n'
+              f'|* - Back to Game Options|\n')
+        if string == 'B':
+            print(f'In works')
+        elif string == 'P':
             rps.main()
-        elif string == 'BJ':
-            pass
-        elif string == 'B':
-            pass
-        elif string == 'B':
-            options(user_functions)
+            play()
+        elif string == '*':
+            play()
         else:
             print(f'You did not select one of the options. Try Again.\n')
-            user_functions.play()
+            user_functions.rps()
+
+
 
     def bet(self): #betting
         with open ('info.csv', 'r') as x:
@@ -77,7 +76,7 @@ def create_user(): #add user to csv
     '''
     testcase = 0
     username = is_user_created(input(f'Please input a unique username for your account at GameCenter.\n'),testcase)
-    password = input(f'Please enter your password to your account.\n')
+    password = input(f'Please enter a password to your account.\n')
     user_info = (username,password,'0','0')
 
     with open ('info.csv', 'a', newline='') as information:
@@ -101,7 +100,6 @@ def login_tester(username,password):
         for row in read:
             user_list[row[0]] = row[1:]
 
-        print(user_list[username][0])
         password_correct = False
         while password_correct == False:
             if password != user_list[username][0]:
@@ -125,9 +123,10 @@ def login_user(): #login to user
     username = is_user_created(input(f'Please input your username. Case sensitive. Please do not include whitespaces.\n'),testcase)
     password = input(f'Please enter your password that goes with this account.\n')
 
-    username, information =(login_tester(username,password)) # calls function login tester.
+    username, information = (login_tester(username,password)) # calls function login tester.
 
     player = user_functions(username,information[1],information[2])
     return player
 
 '''1A-----------------------------------------------------------------------------------------'''
+
