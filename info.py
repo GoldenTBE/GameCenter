@@ -18,13 +18,16 @@ class user_functions:
         options(user)
     def rps(self):
         string = input(f'|Welcome to Rock, Paper, Scissors!|\n'
-              f'|B - Bet Coins|\n'
+              f'|B - Bet Mode|\n'
               f'|P - Practice Mode|\n'
               f'|* - Back to Game Options|\n')
+        gametype = 0
         if string == 'B':
-            print(f'In works')
+            rps.main(gametype,self.username,self.coins,self.score)
+            play()
         elif string == 'P':
-            rps.main()
+            gametype += 1
+            rps.main(gametype,self.username,self.coins,self.score)
             play()
         elif string == '*':
             play()

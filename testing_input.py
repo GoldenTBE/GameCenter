@@ -1,21 +1,10 @@
 import csv
-def is_digit():
+def is_digit(num):
     while True:
-        var = input()
         try:
-            var = int(var)
+            num = int(num)
             break
         except ValueError:
             print("Was that an integer? Please try again...")
-    return var
+    return num
 
-def is_str(): #testing for wanted input in main.py
-    while True:
-        var = input()
-        try:
-            var.isalpha()
-            break
-        except ValueError:
-            print("Was that a String? Please try again...")
-    return var
-#def is_user_in_csv():

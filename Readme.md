@@ -30,9 +30,18 @@
     - Logout - After logging out, login would be prompted twice. 
     - Moved Play function to main, easier to work with. 
 
+## Updated 1.0.4 
+
+- Added RPS 
+- Added option for Player Info when logged in (In-Works)
+- Tweaks to testing_input
+- Notes: 
+    - Only Practice mode is available. 
+    - Betting will be added to all games once they are done. 
+
 ## **Priority**
 
-- Getting Games Added. 
+- Getting the Games added. 
 - Betting/Score Implemented. 
 - Error Handling
 - Add Leaderboard Support 

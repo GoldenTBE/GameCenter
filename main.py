@@ -1,6 +1,6 @@
 import info
 from tabulate import tabulate
-from testing_input import is_str,is_digit
+from testing_input import is_digit
 
 def start():
    string = input((f'\nWhat would you like to do?\nL - Login to user\nC - Create a user\nQ - Quit out of app\n'))
@@ -19,6 +19,7 @@ def start():
 def options(user_info):
     string = input(f'|-Main Menu-|\n'
                    f'|P - Play Games|\n'
+                   f'|YI - Your Info|\n' #Your Info in Works.
                    f'|PL - Player Leaderboard|\n'
                    f'|L - Logout|\n'
                    f'|Q - Quit|\n')
@@ -28,7 +29,6 @@ def options(user_info):
         user_info.leaderboard(user_info)
     elif string == 'L':
         print(f'Bye {user_info.username}! See you again soon.')
-
     elif string == 'Q':
         quit()
     else:
@@ -51,8 +51,7 @@ def play():
         options(user_info)
     else:
         print(f'You did not select one of the options. Try Again.\n')
-        user_info.play(user_info)
-
+        play()
 
 
 
