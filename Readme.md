@@ -30,7 +30,7 @@
     - Logout - After logging out, login would be prompted twice. 
     - Moved Play function to main, easier to work with. 
 
-## Updated 1.0.4 
+## Update 1.0.4 
 
 - Added RPS 
 - Added option for Player Info when logged in (In-Works)
@@ -38,6 +38,11 @@
 - Notes: 
     - Only Practice mode is available. 
     - Betting will be added to all games once they are done. 
+
+## Update 1.0.4.1
+
+- Added Your Info when logged in 
+
 
 ## **Priority**
 

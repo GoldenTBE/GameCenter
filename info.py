@@ -16,7 +16,13 @@ class user_functions:
     def leaderboard(self,user):
         print(f'In Works')
         options(user)
-    def rps(self):
+    def your_info(self,user):
+        print(f'|Username: {self.username}|\n'
+              f'|Coins: {self.coins}|\n'
+              f'|Score: {self.score}|')
+        options(user)
+
+    def rps(self): #RPS
         string = input(f'|Welcome to Rock, Paper, Scissors!|\n'
               f'|B - Bet Mode|\n'
               f'|P - Practice Mode|\n'
@@ -34,6 +40,24 @@ class user_functions:
         else:
             print(f'You did not select one of the options. Try Again.\n')
             user_functions.rps()
+    def blackjack(self): #Blackjack
+        string = input(f'|Welcome to BlackJack!|\n'
+                       f'|B - Bet Mode|\n'
+                       f'|P - Practice Mode|\n'
+                       f'|* - Back to Game Options|\n')
+        gametype = 0
+        if string == 'B':
+            BlackJack.main(gametype, self.username, self.coins, self.score)
+            play()
+        elif string == 'P':
+            gametype += 1
+            BlackJack.main(gametype, self.username, self.coins, self.score)
+            play()
+        elif string == '*':
+            play()
+        else:
+            print(f'You did not select one of the options. Try Again.\n')
+            user_functions.blackjack()
 
 
 
