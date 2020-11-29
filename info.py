@@ -22,7 +22,7 @@ class user_functions:
               f'|Score: {self.score}|')
         options(user)
 
-    def rps(self): #RPS
+    def rps(self,user): #RPS
         string = input(f'|Welcome to Rock, Paper, Scissors!|\n'
               f'|B - Bet Mode|\n'
               f'|P - Practice Mode|\n'
@@ -30,31 +30,35 @@ class user_functions:
         gametype = 0
         if string == 'B':
             rps.main(gametype,self.username,self.coins,self.score)
-            play()
+            user_functions.rps(self)
         elif string == 'P':
             gametype += 1
             rps.main(gametype,self.username,self.coins,self.score)
-            play()
+            user_functions.rps(self)
         elif string == '*':
-            play()
+            play(user)
         else:
             print(f'You did not select one of the options. Try Again.\n')
             user_functions.rps()
-    def blackjack(self): #Blackjack
+    def blackjack(self, user): #Blackjack
         string = input(f'|Welcome to BlackJack!|\n'
                        f'|B - Bet Mode|\n'
                        f'|P - Practice Mode|\n'
+                       f'|R - Rules|\n'
                        f'|* - Back to Game Options|\n')
         gametype = 0
         if string == 'B':
             BlackJack.main(gametype, self.username, self.coins, self.score)
-            play()
+            user_functions.blackjack(self,user)
         elif string == 'P':
             gametype += 1
             BlackJack.main(gametype, self.username, self.coins, self.score)
-            play()
+            user_functions.blackjack(self,user)
+        elif string == 'R':
+            BlackJack.rules()
+            user_functions.blackjack(self,user)
         elif string == '*':
-            play()
+            play(user)
         else:
             print(f'You did not select one of the options. Try Again.\n')
             user_functions.blackjack()

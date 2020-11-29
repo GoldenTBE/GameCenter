@@ -43,6 +43,9 @@
 
 - Added Your Info when logged in 
 
+## Update 1.0.4.2
+
+- Fixed going back to play
 
 ## **Priority**
 
@@ -50,5 +53,5 @@
 - Betting/Score Implemented. 
 - Error Handling
 - Add Leaderboard Support 
-
-
+- Move some functions to its own file. 
+- Move main functions to info.py 

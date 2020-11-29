@@ -2,6 +2,8 @@ import info
 from tabulate import tabulate
 from testing_input import is_digit
 
+
+
 def start():
    string = input((f'\nWhat would you like to do?\nL - Login to user\nC - Create a user\nQ - Quit out of app\n'))
    if string == 'L':
@@ -24,9 +26,11 @@ def options(user_info):
                    f'|L - Logout|\n'
                    f'|Q - Quit|\n')
     if string == 'P':
-        play()
+        play(user_info)
     elif string == 'PL':
         user_info.leaderboard(user_info)
+    elif string == 'YI':
+        user_info.your_info(user_info)
     elif string == 'L':
         print(f'Bye {user_info.username}! See you again soon.')
     elif string == 'Q':
@@ -35,16 +39,16 @@ def options(user_info):
         print(f'You did not select one of the options. Try Again.\n')
         options(user_info) #recursion
 
-def play():
+def play(user_info):
     string = input(f'|Games Offered|\n'
                        f'|RPS - Rock Paper Scissors|\n'
                        f'|BJ - BlackJack|\n'
                        f'|B - Battleship|\n'
                        f'|* - Back|\n')
     if string == 'RPS':
-        user_info.rps()
+        user_info.rps(user_info)
     elif string == 'BJ':
-        pass
+        user_info.blackjack(user_info)
     elif string == 'B':
         pass
     elif string == '*':
